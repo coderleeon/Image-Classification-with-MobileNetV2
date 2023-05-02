@@ -1,2 +1,5 @@
-# Image-Classification-with-MobileNetV2
-The project is an image classification module that uses a pre-trained deep learning model (MobileNetV2) to classify images into different categories. The module takes an input image, preprocesses it, makes a prediction using the pre-trained model, and then decodes the predictions to map them back to class label
+Image classification is a popular application of machine learning that involves training a model to recognize and categorize images. This can be used in a wide range of fields, such as healthcare, e-commerce, and social media.
+In an image classification project, a model is trained on a dataset of labeled images, where each image is assigned a specific category or label. The model learns to recognize patterns in the images and use them to make predictions on new, unseen images.
+The MobileNetV2 model used in the code you provided is a pre-trained model that has been trained on a large dataset of images. By using this pre-trained model, we can take advantage of its existing knowledge to quickly and accurately classify new images.
+The code loads an image, preprocesses it, and passes it through the MobileNetV2 model to make a prediction on its category. The prediction is then decoded to return the top three most likely categories with their associated probabilities.
+ An image classification project can be a useful tool for automating the categorization of large amounts of visual data, and can be applied to a wide range of real-world problems.
