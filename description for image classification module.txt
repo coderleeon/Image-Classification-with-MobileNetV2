@@ -1,0 +1,23 @@
+The project is an image classification module that uses a pre-trained deep learning model (MobileNetV2) to classify images into different categories. The module takes an input image, preprocesses it, makes a prediction using the pre-trained model, and then decodes the predictions to map them back to class labels. The code is written in Python and uses the TensorFlow and Keras libraries for deep learning. The project can be used as a starting point for building custom image classification models for different use cases.
+
+All the modules that I have used in the project are shown below
+
+1. tensorflow.keras: This is the Keras API implementation from TensorFlow, used to build and train machine learning models.
+
+2. numpy: This is a package for scientific computing with Python, used here for manipulating arrays.
+
+3. PIL: This is the Python Imaging Library, used here to load and preprocess the input image.
+
+4. keras.applications.MobileNetV2: This is a pre-trained model included in the Keras library, used as the base for making predictions on the input image.
+
+5. keras.preprocessing.image.img_to_array: This is a Keras function used to convert the input image to a numpy array.
+
+6. keras.applications.mobilenet_v2.preprocess_input: This is a Keras function used to preprocess the input image data to prepare it for prediction.
+
+7. model.predict: This is a Keras function used to make a prediction on the preprocessed image data using the MobileNetV2 model.
+
+8. keras.applications.mobilenet_v2.decode_predictions: This is a Keras function used to decode the model's prediction output into class labels and their corresponding probabilities.
+
+
+➤ The image that I have used as a reference in the code is of a normal supra car
+Link- https://lnkd.in/dFsS3vgv
